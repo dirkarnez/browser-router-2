@@ -27,7 +27,6 @@ const database = {
 
 };
 
-
 let [route, detail] = window.location.href.split('/').slice(-2);
 
 switch (route) {
@@ -89,5 +88,5 @@ switch (route) {
 }
 
 function render(...html) {
-    document.getElementById("Container").innerHTML = html.join('');
+    document.getElementById("container").innerHTML = html.join('');
 }
